@@ -1,0 +1,26 @@
+/*  Colours for Syntax Highlighted pre's */
+.syntax-highlight {color:white;background-color:black;padding:5px 10px;}
+.syntax-highlight > .key {color:#ffbf35}
+.syntax-highlight > .string {color:#5dff39;}
+.syntax-highlight > .number {color:#70aeff;}
+.syntax-highlight > .boolean {color:#b993ff;}
+
+
+.elem{
+	position:absolute;
+	inset:0px; 
+	z-index: 3;
+	visibility: hidden;
+}
+
+
+#video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 9999;
+  visibility: hidden;
+}
